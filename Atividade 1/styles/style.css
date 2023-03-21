@@ -1,0 +1,98 @@
+body {
+    background-image: url('../img/preview1.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3d1901;
+    background-color: #e5986699;
+    border-radius: 5px;
+}
+
+#menu {
+    margin-top: 5px;
+}
+
+#menu ul {
+    text-align: center;
+    list-style: none;
+}
+
+#menu ul li {
+    display:block
+}
+
+#menu ul li a {
+    padding: 2px 10px; /*espaço ao redor da tag*/
+    display: inline-block;
+    font-size: 15px;
+    background-color: #ededed;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #E59866;
+}
+
+#cardapio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#cardapio img {
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #6E2C00;
+    background-color: #e5986699;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+item p {
+    font-size: 14px;
+}
+
+#item button {
+    border: none;
+    background-color: #E59866;
+    padding: 10px;
+    border-radius: 5px;
+    color:beige;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#item button:hover {
+    background-color: #6E2C00
+}
+
+#link-topo {
+    text-decoration: none;
+    color: white;
+    background-color: #6E2C00;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #3d1901;
+}
